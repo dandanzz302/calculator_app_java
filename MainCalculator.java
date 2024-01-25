@@ -37,7 +37,7 @@ public class BasicArithmetic {
                 result = digit1 * digit2;
                 break;
             case 4:
-                // Check for division by zero
+                // Check for division by zero (0)
                 if (digit2 != 0) {
                     result = digit1 / digit2;
                 } else {
@@ -56,7 +56,7 @@ public class BasicArithmetic {
         System.out.println("The result is: " + result);
 
         // Close the Scanner to prevent resource leak
-        scanner.close();
+              scanner.close();
     }
 }
 
